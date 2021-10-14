@@ -42,15 +42,42 @@ body{
 
 }
 
+.btn{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-weight: lighter;
+}
+
+.btn-top{
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+
+.btn-bottom{
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
 /* .description{
     
 
 
 } */
-
+/* 
 .sidebar > div{
     height: 20%;
-}
+} */
 
 
 img{
